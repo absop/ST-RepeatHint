@@ -6,9 +6,6 @@ import sublime_plugin
 
 repear_hint_regions_key = "RepeatHint"
 
-foldl = lambda f, b, l: foldl(f, f(b, l[0]), l[1:]) if l else b
-concat = lambda ls: foldl(lambda x, y: x + y, [], ls)
-
 def get_view_repeat(lines, start_linenum, ignore_empty_line):
     unique_linestrs = []
     repeat_linenums = {}
