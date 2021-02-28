@@ -1,0 +1,32 @@
+[
+    {
+        "caption": "RepeatHint: Remove Repeat Lines",
+        "command": "remove_repeat_lines"
+    },
+    {
+        "caption": "RepeatHint: Show Repeat Lines",
+        "command": "show_repeat_lines"
+    },
+    {
+        "caption": "RepeatHint: Mark Repeat Lines",
+        "command": "mark_repeat_lines"
+    },
+    {
+        "caption": "RepeatHint: Mark Repeat Lines (Ignore Empty Lines)",
+        "command": "mark_repeat_lines",
+        "args": {"ignore_empty_line": true}
+    },
+    {
+        "caption": "RepeatHint: Unmark Repeat Lines",
+        "command": "unmark_repeat_lines"
+    },
+    {
+        "caption": "RepeatHint: Select Repeat Lines",
+        "command": "select_repeat_lines"
+    },
+    {
+        "caption": "RepeatHint: Select Repeat Lines (Ignore Empty Lines)",
+        "command": "select_repeat_lines",
+        "args": {"ignore_empty_line": true}
+    }
+]

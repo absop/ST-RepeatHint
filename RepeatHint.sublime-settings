@@ -1,0 +1,15 @@
+{
+    // "red",
+    // "pink",
+    // "blue",
+    // "green",
+    // "orange",
+    // "purple",
+    // "yellow",
+    // "string",
+    // "comment"
+    "icon_color": "red",
+
+    // "circle", "dot", "markbook"
+    "icon_shape": "dot"
+}

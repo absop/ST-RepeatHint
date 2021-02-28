@@ -1,0 +1,22 @@
+[
+    {
+        "keys": ["ctrl+shift+h", "ctrl+r"],
+        "command": "remove_repeat_lines"
+    },
+    {
+        "keys": ["ctrl+shift+h", "ctrl+s"],
+        "command": "show_repeat_lines"
+    },
+    {
+        "keys": ["ctrl+shift+h", "ctrl+m"],
+        "command": "mark_repeat_lines"
+    },
+    {
+        "keys": ["ctrl+shift+h", "ctrl+u"],
+        "command": "unmark_repeat_lines"
+    },
+    {
+        "keys": ["ctrl+shift+h", "ctrl+l"],
+        "command": "select_repeat_lines"
+    },
+]
