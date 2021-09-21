@@ -1,13 +1,11 @@
 # Repeat Hint
-A repeat lines reporter for Sublime Text.
+A repeat lines(a line that appears multiple times in the file) reporter for Sublime Text.
+
+This plugin is mainly used to detect duplicate data in the data file (one item per line) and will not be used very often.
+
 
 ## Features（功能）
-> - 显示重复行
-> - 标记重复行
-> - 清除重复行标记
-> - 选择重复行
-> - 删除重复行
-- Show repeat lines in message dialog
+- Show repeat lines in palette, to copy or goto the first arise line.
 - Mark repeat lines in gutter bar
 - Clean repeat lines marks
 - Select repeat lines
@@ -23,11 +21,12 @@ A repeat lines reporter for Sublime Text.
 - RepeatHint: Remove Repeat Lines
 
 
-## Key Bindings（快捷键）
-|              Keys               |             Command             |
-| :-----------------------------: | ------------------------------- |
-| <kbd>ctrl+shift+h, ctrl+r</kbd> | RepeatHint: Remove Repeat Lines |
-| <kbd>ctrl+shift+h, ctrl+s</kbd> | RepeatHint: Show Repeat Lines   |
-| <kbd>ctrl+shift+h, ctrl+m</kbd> | RepeatHint: Mark Repeat Lines   |
-| <kbd>ctrl+shift+h, ctrl+u</kbd> | RepeatHint: Unmark Repeat Lines |
-| <kbd>ctrl+shift+h, ctrl+l</kbd> | RepeatHint: Select Repeat Lines |
+## Method to bind hotkeys.
+These commands can be bound to hotkeys
+- `remove_repeat_lines`
+- `show_repeat_lines`
+- `mark_repeat_lines`
+- `unmark_repeat_lines`
+- `select_repeat_lines`
+
+The only argument for these commands is `ignore_empty_line`, which is a boolean value.
